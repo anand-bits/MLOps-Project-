@@ -1,0 +1,24 @@
+Basically The Problem Statement are :- 
+
+US Visa Approval Status 
+Given a certain set of feature such as (Continent ,education, job_exprience,training,employment,current age etc.)
+
+We have to predict weather the application for the visa will be approved or not.
+
+Solution Approach:-
+We will be using ML
+
+1. Load the data from DB
+2. Perform EDA and feature Engineering to select the desirable features
+3. Fit the ML classsification Algorithm and find out which one performs better.
+4. select top few and tune hyparameteres.
+5.select the best model based on the desirable metrics
+
+
+
+
+Project Setup:-
+
+1. Github Repository 
+2. Requiremnet txt
+3.Tempelates 
