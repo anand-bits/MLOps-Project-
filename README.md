@@ -13,3 +13,11 @@ Git Branching---->
 
 
 Dev will be the main branch where the code will be implemented and Every Update will be come through the feature/*Name of feature * .
+
+
+Deployment :-
+
+Docker 
+Cloud Service 
+Adding Self hosted Runner 
+Workflows
