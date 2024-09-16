@@ -1,0 +1,18 @@
+[ 2024-09-16 17:14:01,880 ] root - INFO - Entered the start_data_ingestion method of TrainPipeline class
+[ 2024-09-16 17:14:01,880 ] root - INFO - Getting the data from mongodb
+[ 2024-09-16 17:14:01,880 ] root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-09-16 17:14:01,880 ] root - INFO - Exporting data from mongodb
+[ 2024-09-16 17:14:03,164 ] root - INFO - MongoDB connection successful.
+[ 2024-09-16 17:14:07,295 ] root - INFO - Shape of dataframe: (25480, 12)
+[ 2024-09-16 17:14:07,298 ] root - INFO - Saving exported data into feature store file path: artifact\09_16_2024_17_14_01\data_ingestion\feature_store\usvisa.csv
+[ 2024-09-16 17:14:07,423 ] root - INFO - Got the data from mongodb
+[ 2024-09-16 17:14:07,426 ] root - INFO - Entered split_data_as_train_test method of Data_Ingestion class
+[ 2024-09-16 17:14:07,434 ] root - INFO - Performed train test split on the dataframe
+[ 2024-09-16 17:14:07,434 ] root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2024-09-16 17:14:07,435 ] root - INFO - Exporting train and test file path.
+[ 2024-09-16 17:14:07,565 ] root - INFO - Exported train and test file path.
+[ 2024-09-16 17:14:07,568 ] root - INFO - Performed train test split on the dataset
+[ 2024-09-16 17:14:07,568 ] root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-09-16 17:14:07,568 ] root - INFO - Data ingestion artifact: DataIngestionArtifact(trained_file_path='artifact\\09_16_2024_17_14_01\\data_ingestion\\ingested\\train.csv', test_file_path='artifact\\09_16_2024_17_14_01\\data_ingestion\\ingested\\test.csv')
+[ 2024-09-16 17:14:07,579 ] root - INFO - Got the train_set and test_set from mongodb
+[ 2024-09-16 17:14:07,580 ] root - INFO - Exited the start_data_ingestion method of TrainPipeline class
